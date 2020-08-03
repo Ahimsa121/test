@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.laydate-box{
+    height: 34px;
+    width: 154px;
+    border: 0px;
+    position: relative;
+}
+
+#laydateInput {
+    outline: none;
+    display: block;
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.select-date {
+    margin: 100px auto;
+    width: 266px;
+    height: 229px;
+    border: 2px solid #58abff;
+}
+
+.select-date-header{
+    height: 48px;
+    border-bottom: 1px solid #58abff;
+}
+
+.week-list {
+    height: 35px;
+    width: 100%;
+    border-bottom: 1px solid #c8cacc;
+}
+
+.week-list li:nth-child(1){
+    color: red;
+}
+
+.week-list li:nth-child(7) {
+    color: red
+}
+
+.tabel-line {
+    height: 35px;
+    border-bottom: 1px solid #c8cacc;
+}
+
+.ul li{
+    display: inline;
+    text-align: center;
+    /* font-size: 15px; */
+    
+}
+/* .ul li:nth-child(2n){
+    letter-spacing: 25px;
+} */
+
+.tabel-li {
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    line-height: 31px;
+    float: left;
+    border: 2px solid #fff;
+    margin: 0 1px;
+    cursor: pointer;
+}
+.tabel-li.preday{
+    color: rgb(177, 177, 177);
+}
+.tabel-li.active {
+    background: #ffbb00;
+    color: #fff !important;
+    border-color: #ffbb00;
+}
+/* .tabel-li.showClick {
+    border-color: #ffbb00;
+} */
+.tabel-li:hover {
+    border-color: #ffbb00;
+}
